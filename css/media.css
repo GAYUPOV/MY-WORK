@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     :root {
         --body: #151437;
         --txt-color: #FFFFFF;
@@ -23,5 +23,10 @@
 @media (max-width: 576px) {
     .about__image-photo {
         width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .works__tab-img {
+        margin-bottom:20px;
     }
 }
